@@ -7,7 +7,6 @@ if(fileName){
   
 const saveFileName = process.argv[3] || fileName.split('.txt')[0] + '.csv';
 
-
 const commaSeparate = (text) => {
   return text.split(' ').join(',');
 };
